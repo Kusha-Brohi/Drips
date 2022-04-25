@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>STEPS</title>
+      <!-- All CSS inclueded in one  -->
+      <link href="css/allmix.css" rel="stylesheet" type="text/css">
+      <!-- Css Files Start -->
+      <link href="https://custom-webdevelopment.com/drip/public/patient-dashboard/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="https://custom-webdevelopment.com/drip/public/patient-dashboard/css/style.css" rel="stylesheet" type="text/css">
+      <link href="https://custom-webdevelopment.com/drip/public/patient-dashboard/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="https://custom-webdevelopment.com/drip/public/patient-dashboard/css/animate.css" rel="stylesheet" type="text/css">
+      <link href="https://custom-webdevelopment.com/drip/public/patient-dashboard/css/hover.css" rel="stylesheet" type="text/css">
+      <link href="https://custom-webdevelopment.com/drip/public/patient-dashboard/css/plugins.css" rel="stylesheet" type="text/css">
+      <link href="https://custom-webdevelopment.com/drip/public/patient-dashboard/fb/style.css" rel="stylesheet" type="text/css">
+      <!-- Compulsory CSS -->
+      <link href="https://custom-webdevelopment.com/drip/public/plugins/vendors/toast-master/css/jquery.toast.css" rel="stylesheet">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap" rel="stylesheet">
+      <link href="css/steps.css" rel="stylesheet" type="text/css">
+   </head>
+   <body class="responsive">
+      <header>
+         <!-- Begin: Top Row -->
+         <div class="top-row">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <ul class="list-inline text-right">
+                        <li><a href="">Call Now: +000 0123 456 789 </a></li>
+                        <li><a href="">E-mail: info@dripsmedical.com</a></li>
+                        <li><a href="patient-dashboard/login1.html" id="p-login">Patient log in</a></li>
+                        <li><a href="pysicain-dashboard/login1.html" id="ph-login"> Physician log in</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bottom-row">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-5">
+                     <a href="index.html"><img src="images/logo.png" class="img-responsive" alt="img"> </a>
+                  </div>
+                  <div class="col-md-7">
+                     <div class="bottom-list">
+                        <ul class="list-inline">
+                           <li><a href="">HOME</a> </li>
+                           <li><a href="">ABOUT</a> </li>
+                           <li><a href="">SERVICES</a> </li>
+                           <li><a href="">NEWS</a> </li>
+                           <li><a href="">CAREERS</a> </li>
+                           <li><a href="">CONTACT US</a> </li>
+                           <li><a href="">FAQS</a> </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- STEPS HTML STRT -->
+      <section class="steps_sec">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="product-content-steps">
+                     <div class="stepwizard">
+                        <div class="stepwizard-row setup-panel">
+                           <div class="stepwizard-step">
+                              <a href="#step-1" type="button" class="btn btn-circle btn-default btn-primary">Personal Detail</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-2" type="button" class="btn btn-default btn-circle">Contact Info</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-3" type="button" class="btn btn-default btn-circle">Allergies</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-4" type="button" class="btn btn-default btn-circle">Past Medical History</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-5" type="button" class="btn btn-default btn-circle">Past Surgical History</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-6" type="button" class="btn btn-default btn-circle">Family History</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-7" type="button" class="btn btn-default btn-circle">Social History</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-8" type="button" class="btn btn-default btn-circle">Current Medications</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-9" type="button" class="btn btn-default btn-circle">Blood Type:</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-10" type="button" class="btn btn-default btn-circle">Self Assessment</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-11" type="button" class="btn btn-default btn-circle">Upload profile</a>
+                           </div>
+                           <div class="stepwizard-step">
+                              <a href="#step-12" type="button" class="btn btn-default btn-circle">Debit card/ATM information</a>
+                           </div>
+                        </div>
+                     </div>
+                     <form role="form" style="width: 100%;">
+                        <div class="row setup-content" id="step-1" style="display: none;">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Personal Information</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text" placeholder="First Name" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text" placeholder="Last Name" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>Date Of Birth</label>
+                                       <input type="date" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Gender</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="Gender">Male</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="Gender">Female</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Material Status</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="single">Single</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="single">Married</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-2" type="button" class=" nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row setup-content" id="step-2" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Contact Information</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Address" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text" placeholder="Phone Number" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="email"   placeholder="Email Address" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-3" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-3" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Allergies</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Are you allergic to any medication or do you have any type of allergies?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="Gender">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="Gender">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-4" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-4" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Past Medical History</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>List all the medical conditions you have been previously diagnosed with:</label>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Condition 1" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Condition 2" required="">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Condition 3" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Condition 4" required="">
+                                    </div>
+                                 </div>
+                                 
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-5" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-5" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Past Surgical History</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>List all surgical operations you have had:</label>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Operation 1" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Operation 2" required="">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Operation 3" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Operation 4" required="">
+                                    </div>
+                                 </div>
+                                 
+                                 
+
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-6" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-6" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Family History</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>List all the medical conditions in your family (Parents and Siblings).</label>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text" placeholder="Father's Medical Conditions" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text" placeholder="Mother's Medical Conditions" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text" placeholder="Sibling's Medical Conditions" required="">
+                                    </div>
+                                 </div>
+                                 
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-7" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-7" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Social History</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do You Smoke Tobacco?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="tobacoo">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="tobacoo">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do You drink Alcohol?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="alcohol">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="alcohol">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>   
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do You Use Any Recreational Drugs Like Marijuana?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="marijuana">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="marijuana">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Are you employed?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="emp">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="emp">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>Job Title</label>
+                                       <input type="text" placeholder="" required="">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>Employer name</label>
+                                       <input type="text" placeholder="" required="">
+                                    </div>
+                                 </div>
+                                 
+
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-9" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-8" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Current Medications:</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>List all active medications you take</label>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <textarea rows="10"></textarea>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-8" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-9" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Blood Type:</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>Please check your blood group: A, B, AB, O (leave blank if you don't know)</label>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <select>
+                                          <option value="">
+                                             Select Your Blood Group
+                                          </option>
+                                          <option value="">
+                                             A
+                                          </option>
+                                          <option value="">
+                                             B
+                                          </option>
+                                          <option value="">
+                                             AB
+                                          </option>
+                                          <option value="">
+                                             O
+                                          </option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-8" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-10" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Self Assessment</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have any type of daily pain?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="pain">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="pain">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have hearing or speaking impairment?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="impairment">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="impairment">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>   
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have visual impairment?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="visual">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="visual">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Are you on Dialysis</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="dialysis">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="dialysis">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have cancer or have you ever had cancer?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="cancer">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="cancer">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have any organ transplant?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="transplant">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="transplant">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have any amputation?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="amputation">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="amputation">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have any psychiatric illness?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="psychiatric">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="psychiatric">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Do you have a heart device?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="heart">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="heart">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="radio_btns">
+                                       <label>Are you on Insulin, chemotherapy or any immune suppressing medication?</label>
+                                       <ul>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="insulin">Yes</label></li>
+                                          <li class="dis_in_block"><label><input type="radio" value="" name="insulin">No</label></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <label>Note: A score of 3 or more should be reported as complex on the self assessment, 3 or less should be not complex</label>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-9" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+
+                        <div class="row setup-content" id="step-11" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Upload Profile</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="upld_img text-center">
+                                     <div class="uplod_imag">
+                                       <img src="images/cloud-computing.png" alt="Image">
+                                       <input type="file" name="file_upload">
+                                     </div>
+                                     <h4>Browse Files</h4>
+                                     <p>Drag And Drop Files Here</p>
+                                    </div>
+                                 </div>
+
+
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-9" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="row setup-content" id="step-12" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h3>Debit Card/ATM Information:</h3>
+                                 </div>
+                              </div>
+                              <div class="step_content_wrap">
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Card" required="">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="Number"   placeholder="Card Number" required="">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"   placeholder="Card Holder Name" required="">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <select>
+                                          <option value="" selected>
+                                             Valid To (month)
+                                          </option>
+                                          <option value="">
+                                             July
+                                          </option>
+                                          <option value="">
+                                             August
+                                          </option>
+                                          <option value="">
+                                             September
+                                          </option>
+                                          <option value="">
+                                             October
+                                          </option>
+                                       </select>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-3 col-sm-3 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <select>
+                                          <option value="" selected>
+                                             Valid To (Year)
+                                          </option>
+                                          <option value="">
+                                             2021
+                                          </option>
+                                          <option value="">
+                                             2022
+                                          </option>
+                                          <option value="">
+                                             2023
+                                          </option>
+                                          <option value="">
+                                             2024
+                                          </option>
+                                       </select>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="rigistertionlist">
+                                       <input type="text"  placeholder="Security Code" required="">
+                                    </div>
+                                 </div>
+                                 
+
+                                 <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                    <div class="rigistertionlist">
+                                       <a href="#step-9" type="button" class="nextBtn btn btn-default btn-circle">Next</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- <div class="row setup-content" id="step-10" style="">
+                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                              <div class="step_title">
+                                 <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h2>Success!</h2>
+                                    <h5>Our Team will get in touch with you soon.</h5>
+                                 </div>
+                              </div>
+                              <div class="col-md-2 col-sm-2 col-xs-2 pull-right">
+                                 <div class="rigistertionlist">
+                                    <a href="#step-9" type="button" class="btn btn-default btn-circle">Finish</a>
+                                 </div>
+                              </div>
+                              
+                           </div>
+                        </div> -->
+                    </form>
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!-- STEPS HTML END -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h4>Get drips Now!</h4>
+                  <img src="images/google-app.png">
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <p>© 2019. Drips Medical Systems</p>
+                  </div>
+                  <div class="col-md-4">
+                     <ul class="list-inline text-center">
+                        <li><img src="images/ftr-social-1.png"></li>
+                        <li><img src="images/ftr-social-2.png"></li>
+                        <li><img src="images/ftr-social-3.png"></li>
+                        <li><img src="images/ftr-social-4.png"></li>
+                        <li><img src="images/ftr-social-5.png"></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4 text-right">
+                     <a href="">Terms &amp; Conditions</a>
+                     <a href="">Privacy Policy</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- ============================================================== -->
+      <!-- All SCRIPTS ANS JS LINKS IN BELOW FILE -->
+      <!-- ============================================================== -->
+      <!-- Js Files Start --> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+      <script src="https://gromo.github.io/jquery.scrollbar/jquery.scrollbar.js "></script> 
+      <script src="http://custom-webdevelopment.com/drip/public/patient-dashboard/js/bootstrap.min.js"></script> 
+      <script src="http://custom-webdevelopment.com/drip/public/patient-dashboard/fb/jquery.fancybox.min.js"></script>
+      <script src="http://custom-webdevelopment.com/drip/public/patient-dashboard/js/custom.js"></script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js')}}"></script> 
+      <script src="http://custom-webdevelopment.com/drip/public/patient-dashboard/js/jquery.mixitup.min.js"></script> 
+      <script src="http://custom-webdevelopment.com/drip/public/js/jquery.mixitup.min.js"></script> 
+      <script>new WOW().init();</script>
+      <!-- Notification JS Below  -->
+      <script src="http://custom-webdevelopment.com/drip/public//plugins/vendors/toast-master/js/jquery.toast.js"></script>
+      <script>
+         $(document).ready(function () {
+         
+                             
+                
+                
+                
+            })
+         
+      </script>        
+      <script type="text/javascript">
+         function computeBMI() {
+             // user inputs
+          var height = Number(document.getElementById("height").value);
+             var heightunits = document.getElementById("heightunits").value;
+             var weight = Number(document.getElementById("weight").value);
+             var weightunits = document.getElementById("weightunits").value;
+         
+         
+             //Convert all units to metric
+             if (heightunits == "inches") height /= 39.3700787;
+             if (weightunits == "lb") weight /= 2.20462;
+         
+             //Perform calculation
+         
+             //        var BMI = weight /Math.pow(height, 2)*10000;
+             var BMI = Math.round(weight / Math.pow(height, 2) * 10000);
+         
+             //Display result of calculation
+             //document.getElementById("output").innerText = Math.round(BMI * 100) / 100;
+             
+             var output = Math.round(BMI * 100) / 100
+             document.getElementById("output").value = output;
+          
+         /*        if (output < 18.5)
+                 document.getElementById("comment").innerText = "Underweight";
+             else if (output >= 18.5 && output <= 25)
+                 document.getElementById("comment").innerText = "Normal";
+             else if (output >= 25 && output <= 30)
+                 document.getElementById("comment").innerText = "Obese";
+             else if (output > 30)
+                 document.getElementById("comment").innerText = "Overweight";*/
+             // document.getElementById("answer").value = output; 
+         }
+         
+      </script>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap.min.css">
+      <script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+      <script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+         if($('#mytable').length > 0)
+             $('#mytable').DataTable();
+         } );
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      <!-- STEPS JS -->
+      <script>
+         $(document).ready(function () {
+         
+         var navListItems = $('div.setup-panel div a'),
+           allWells = $('.setup-content'),
+           allNextBtn = $('.nextBtn');
+         
+         allWells.hide();
+         
+         navListItems.click(function (e) {
+         e.preventDefault();
+         var $target = $($(this).attr('href')),
+               $item = $(this);
+         
+         if (!$item.hasClass('disabled')) {
+           navListItems.removeClass('btn-primary').addClass('btn-default');
+           $item.addClass('btn-primary');
+           allWells.hide();
+           $target.show();
+           $target.find('input:eq(0)').focus();
+         }
+         });
+         
+         allNextBtn.click(function(){
+         var curStep = $(this).closest(".setup-content"),
+           curStepBtn = curStep.attr("id"),
+           nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+           curInputs = curStep.find("input[type='text'],input[type='url']"),
+           isValid = true;
+         
+         $(".form-group").removeClass("has-error");
+         for(var i=0; i<curInputs.length; i++){
+           if (!curInputs[i].validity.valid){
+               isValid = false;
+               $(curInputs[i]).closest(".form-group").addClass("has-error");
+           }
+         }
+         
+         if (isValid)
+           nextStepWizard.removeAttr('disabled').trigger('click');
+         });
+         
+         $('div.setup-panel div a.btn-primary').trigger('click');
+         });
+         
+      </script>
+   </body>
+</html>

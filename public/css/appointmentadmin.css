@@ -1,0 +1,376 @@
+
+.prescriptionbox {
+    background-color: #fff;
+
+}
+/*righta bar sec start*/
+.billingsec h3 {
+    color: #2e2e2e;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.billinglist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.billinglist input {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 5px;
+    margin: 6px 0;
+}
+.billinglist select {
+    background-color: #f6f6f6;
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 8px;
+     border-radius: 5px;
+     margin: 6px 0;
+}
+.billinglist button {
+    background-color: #18689a;
+    color: #fff;
+    border: 0;
+    margin: 36px 0 0;
+    height: 40px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+/*request page css start*/
+.symtomslist ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 4px 0 0;
+    line-height: 30px;
+    padding: 5px 0;
+}
+.symtomslist ul {
+    padding: 0;
+}
+.symtomslist ul li input[type="text"] {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 249px;
+    height: 30px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 0;
+}
+.symtomslist ul li input[type="checkbox"] {
+    margin: 7px 4px 0 0;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.dropfilebox {
+    background-color: #fafafa;
+    padding: 48px 40px 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dropfilebox .fa {
+    margin: 0 auto;
+    display: table;
+    font-size: 50px;
+}
+.symtomslist ul li label {
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dropfilebox span {
+    color: #7a7a7a;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.dropfilebox {
+    position: relative;
+}
+.dropfilebox input[type="file"] {
+    position: absolute;
+    width: 100%;
+    top: 54px;
+    left: 45%;
+    opacity: 0;
+}
+.bookingtypelist ul li {
+    list-style: none;
+    display: inline-block;
+}
+.bookingtypelist ul {
+    padding: 0;
+}
+.bookingtypelist input[type="radio"] {
+    margin: 1px 4px;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+.Demand {
+    padding: 6px 0 0;
+}
+.bookingtypelist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 6px 0;
+}
+.docterlist input {
+    border-right: 0;
+    border-radius: 0;
+}
+.docterlist button {
+    margin: 36px 12px;
+}
+a.bookbtn {
+    background-color: #e9f9f4 !important;
+    color: #005990 !important;
+    margin: 0 6px;
+}
+a.prifilepic {
+    background-color: #c1d7e4 !important;
+    color: #005990 !important;
+}
+/*request page css end*/
+/*parent directory sec start*/
+.profilepic {
+    float: left;
+    margin: 0 8px 0 0;
+}
+.profilebox1 h4 {
+    color: #2e2e2e;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 48px 0;
+}
+.profilebox1 {
+    padding: 20px 0 20px;
+}
+.profilelist2 {
+    margin: 13px 0 0;
+}
+.profilelist1 input {
+    background-color: #f6f6f6;
+}
+/*parent directory sec end*/
+/*request consultation model start*/
+
+.onloadform .modal-header {
+    border: 0;
+    background-color: #005990;
+}
+.onloadform h4 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.bookinglist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.bookinglist input {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 5px;
+    margin: 6px 0;
+}
+.bookinglist button {
+    margin: 13px 0 0;
+    float: right;
+    padding: 14px 37px;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #005990;
+    color: #fff;
+    border: 0;
+}
+.onloadform .modal-header .close {
+    margin-top: -2px;
+    color: #fff;
+    opacity: 1;
+}
+.modal-open {
+    overflow-y: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/*request consultation model end*/
+
+
+
+.custom-check li .blk{
+      display: block;
+}
+.custom-check li {
+    width:20%;
+   padding: 6px 15px !important;
+    
+    margin-bottom: 6px !important;
+}
+.custom-check li:nth-child(odd){
+    background: #005990;
+}
+.custom-check li:nth-child(even){
+    background: #4aa4dc;
+}
+.custom-check input {
+  padding: 0;
+  height: initial !important;
+  width: initial !important;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+.custom-check label {
+  position: relative;
+  cursor: pointer;
+  margin-right:5px;
+  color:#fff !important;
+  font-size:13px !important;
+}
+
+.custom-check label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.custom-check input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    width: 8px;
+    height: 18px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.normal_txt {
+    border: 0  !important;
+    text-transform: capitalize !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+        .custom-check li{
+        width:48%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .custom-check li{
+        width:48%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .inputform li input {
+        width:100%;
+    }
+    div#wrapper .navbar-inverse{
+        width:100%;
+    }
+    .billingsec {
+    /*overflow-x: scroll;*/
+    width: 90%;
+    margin-left: 5%;
+    }
+.billinglist input{
+    width:100%;
+}
+.billinglist button{
+    width:100%;
+}
+.billinglist select{
+    width:90%;
+}
+body{
+    overflow-x: visible;
+    width: 94%;
+}
+.custom-check li{
+    display: flex !important;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px !important;
+    width:100%;
+    height: 50px;
+}
+ul.inputform {
+    float: left;
+    margin: 30px 0 0;
+}
+.nav>li:last-child{
+    margin-top:0px;
+}
+.nav>li{
+        margin-top: 10px;
+}
+.infobox{
+    padding-top:105px;
+}
+.medicallist{
+    width:100%;
+    margin-top:100px;
+}
+ul.inputform i.fa.fa-align-justify{
+    display:none;
+}
+    #page-wrapper{
+        margin: 85px 0px 30px;
+    }
+    .profilelist2{
+        margin: 14px 23px 0;
+    }
+    .scrolll-mob {
+    width: 100%;
+    overflow-y: scroll;
+}
+}

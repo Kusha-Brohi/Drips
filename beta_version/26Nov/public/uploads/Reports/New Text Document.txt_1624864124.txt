@@ -1,0 +1,45 @@
+I have asked Franks to update me with current website changes, please see below list of issue that needs to be resolved.
+
+DONE -	1) When you visit site it promots are you over 18 yes or no, if yes, next prompt comes up are you trade customer Yes or no, if customer selects Yes than a seperate Trade Website should open up, for example, Gosupermarkets.com/Trade, currently this does not work.
+
+2) so if this works than it should go like this on a trade Site it should ask customer to Enter the Login and password, if New Customer than it should open up Trade Application Form in a stages, stage 1 Business details, billing details, delivery details and Client Details, Stage 2 up load Documentation of proof of Business, company registartion certificate, Vat certficate, Licence copy, Utility Bill, Trade Licence certificate, once uploaded they move stage 3 Tarde agreement Terms and Condition agreement once they agreed this, stage 4 Will say thank you for completing account opening form, your application will be review by our team member and will be intouch to confirm your User account and Password.  5) all the documents and form will be sent to accounts@gosupermarkets.com and they will authorised account and will send the customer login activation details.
+
+DONE -	2) Other issue i have also reported to Frank is on home page the small banners are static banners, We originally asked for small banners where my office staff can be able to change the banners on the admin panel with ease of access with button on middle eg, browse range, shop Now, Hot Deal!, so we dont have to keep on asking you guys to upate the banner when ever we want to change.
+
+DONE -	3) Also on the home page the Middle Big Banner, similar issue, but need more than 1 banner roatting upto 5 banners with each banner have link of buttons that opens the page with ease, This also we dont have access to be able to change from backend, so we need this in admin panel, where my staff is able to change when ever we need to.
+
+DONE -	4) I have asked Frank to look at the product varient entries on categories of drinks eg if i have 1 brand for example, Jack Daniel it comes in all different size and price according to the size should show on the product when customer browes the product. So if customer select Jack Daniel the product come with image, size and price, but when customer selects deifferent size the images does not change and the price does not change, this needs to be looked at. Also when you hoover over the image it does not zoom into the image when moving cursor over the image.
+
+on the same page on any alcohol and energy drinks categories it should have static banner you must be 18 and over to purchase this products proof of id may required on check out. This static banner option we can be able to select from back end of admin panel in product maintance when adding new product we should be able to have option of tick to apply this banner to this product on no tick for non appliance.
+
+5) Also previously mentioned to account handler to add dropdown button next to search My Gosupermarket, so when consumer login to the account they will be able to browse, orders, shopping list, gosupermarkets Coupen,Account setting, Help Centre,Log out. so each link of option should open up with all the there history of purchasedetails, shopping list, and so on. 
+
+6) on the homepage we mentioned to add next to My Gosupermarkets, Book Delivery buttion, so when customers clicks on this link the page should open with Choose Slot, in the Slot box above whould Have customer Delivery address and the list of available slots for booking delivery for eg 24 hours, Next Day AM Delivery, 48 Hours Delivery, Saturday Delivery and standard delivery Free  on order over £50, each delivery option would have cost displayed. So when customers books a slot delivery slot booked page opens up with list of offer showing at the bottom and then above the offers a 3 option tabs Change a Delivery, Start Shopping, My order, when customer selects my order, the system should pick what customer has purchase previuosly and should show up on this page and then customer should be able to add or remove products they dont need and then they can continue to shopping and be able to check out.
+
+5) I have also spoken to frank to update the check out page, we did not like the format of it, also i have mentioned when customer clicks on check out, the check out should open in stages, Stage 1: Book Delivery than stage 2 check out - Before you go : This may interest you? list of 25 offer should display as per they shopping history and current offers listed on site and customer should be able to add the item to basket. On the bottom of footer showing list of check stage, 1stBook delivery, 2nd Before you go, 3rd stage Your Items, 4th Stage Voucher, 5th Stage Payment, 6th stage Summary, 7th stage Order Complete and on the bottom of right footer on check out should say continue to check out , so when each stage is complete customer clicks on continue to check out until all stages are completed and which than order will be placed and unique order number will be generated and email to our orders@gosupermarkets.com.
+
+6) I have asked franks to link shipping module to check out process, as at the moment our supplier having issue to connect through API Link gosupermarkets site, so i have asked Frank and previous account handler to have this done as manually so when customer places the order when booking delivery slot they can select delivery option as per above mentioned slots and cost once selected and once comleted the order than from backend we be able to allocated tracking details to their order, so when customer gets email your order is in process please find the tracking number to track your order, so from the goupermarkets site when they login as account or guest, they should be able have under order track my order, under track myorder tab when clicked the parcelforce tracking page should open up.
+
+7) Few weeks a go i did test on check out page and it was throwing error when processing for payment page, i don't know if this is resolved or not.
+
+8) I also reminded Frank all the social media pages have not been designed or updated.  "let me know whats happening with this"
+
+9) On the Trade mark i have paid nearly 2K nothing has been confirmed or filing number its been 3 years dont know whats happening here, it only takes 3 months to get this certificate, i dont know why is it taking too long, they been telling me since last year its been submited and they oh we have issue they asking for more money, more money, it became joke and piss taking and ripp off and finally when i paid so much money they are say trade mark is your just have to wait three months, since october i am waiting more than 3 month now, where my certificate and file number for trade mark, need this now.
+
+9) on back end when i am trying to upload the CSV formate, the syetm is throwing error and opens up development screen of scripting.
+
+10) As per my conversation with frank, on the product entery we should have option to offer the product to trade or consumer or it applies to both. if it is a trade customer product should  be offered in case of 3,6,12,24,48, and than size, quantity than price. order should not be process if it reaches £6000 limit per day per customer, if limit exceed over 6K it should prompt customer to contact depot to request bank transfer, the contact number should shown for customer to contact office. 
+
+11) our email addresses and account details have not been sent yet or shown to us how to creat this.
+
+12) all the Hosting/ SSl certificate plans agreed have not received documentation.
+
+13) No updates on Social medai pages and design.
+
+14) all the static banner we should be able to access from admin panel and abel to change any time.
+
+15) PAyment gateway setup testing before we go live.
+
+16) last need the project finished by next week and do all the testing before we go live, and we need full user manual in depth on how the back end works and how we can change or remove items or manage invetory, stock, invoicing, trade and consumer promotion how we set this, how we can apply voucher discount, bulk offers. How we can links our customer feedback to the page, how we can links our quick book to the site, so invoice can generated immidiatly. 
+
+Bruce please look into this as matter of urgency and comeback to me on my mobile number

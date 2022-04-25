@@ -1,0 +1,1999 @@
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri.eot');
+    src: url('../fonts/Calibri.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibri.woff2') format('woff2'),
+        url('../fonts/Calibri.woff') format('woff'),
+        url('../fonts/Calibri.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	overflow-x: hidden;
+     font-family: 'Calibri';
+}
+a {
+	text-decoration: none!important;
+}
+*{outline: none;}
+:hover, a, h1, h2, h3, h4, h5, h6, li, p, ul {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+
+.no-margin {
+	margin: 0!important;
+	padding: 0!important
+}
+.center {
+	margin: 0 auto!important;
+	display: table!important;
+	float: none!important
+}
+.flexRow {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.flexCol {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header {
+	z-index: 11;
+	width: 100%;
+}
+.topBar {
+	background: #124da5;
+}
+.topBar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.topBar ul li {
+	float: left;
+	margin: 0 15px 0 0px;
+}
+.topBar ul li a {
+	padding: 10px 0;
+	display: block;
+	color: #fff;
+}
+.topBar ul li a .fa {
+	color: #c2c2c2
+}
+.header-navigation-menu {
+	margin: 0;
+	overflow: hidden;
+}
+.header-navigation-menu .navbar-collapse {
+	padding-right: 0;
+	padding-left: 0;
+}
+.header-navigation-menu .navbar-brand {
+	float: left;
+	height: auto;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	width: 235px;
+}
+.header-navigation-menu .navbar {
+	position: relative;
+	min-height: auto;
+	margin-bottom: 0;
+	border: 0px solid transparent;
+}
+.header-navigation-menu .navbar-nav {
+	float: right;
+	margin: 0px auto;
+	display: table;
+}
+.header-navigation-menu .navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.header-navigation-menu .navbar-nav > li {
+	float: left;
+	padding: 0;
+}
+.header-navigation-menu .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #cf1d1e !important;
+	background: transparent;
+}
+.header-navigation-menu .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #fff!important;
+	background: #6f999d;
+}
+.header-navigation-menu .navbar-default .navbar-nav>li>a {
+	font-size: 14px;
+	color: #717171;
+	text-align: left;
+	margin: 0;
+	line-height: 22px;
+	letter-spacing: 0;
+	font-weight: 500;
+	padding: 45px 19px;
+}
+.navButton {
+	background-color: #a5e1e7;
+	color: #000;
+	padding: 46px 0;
+	display: block;
+	text-align: center;
+}
+.navButton:hover, .navButton:focus {
+	background-color: #124da5;
+	color: #fff;
+}
+.affix {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	background: #fff;
+	top: 0;
+}
+.affix .navbar-brand {
+	width: 140px;
+}
+.affix li>a {
+	padding: 26px 19px!important;
+}
+.affix .navButton {
+	padding: 27px 0;
+}
+.small {
+    float: left;
+    margin: -5px 7px;
+}
+/*header ends*/
+
+
+/*SIDENAV css start*/
+#wrapper {
+    padding-left: 0;    
+}
+
+#page-wrapper {
+    width: 100%;        
+    padding: 0;
+    background-color: #fff;
+    margin: 85px 0px;
+    height: 100vh;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+ #page-wrapper {
+    padding: 47px 26px;
+}
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+
+.top-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.top-nav>li>a:hover, .top-nav>li>a:focus, .top-nav>.open>a, .top-nav>.open>a:hover, .top-nav>.open>a:focus {
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+   .side-nav {
+    position: fixed;
+    top: 60px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: #005990;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+    padding: 46px 0;
+}
+
+    .side-nav>li>a {
+        width: 225px;
+
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #1a242f !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+    border-bottom: 1px rgba(0,0,0,.3) solid;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #fff;    
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 14px;
+    line-height: 20px;
+}
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+.navbar .nav > li > a > .label {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+  right: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  min-width: 15px;
+  min-height: 15px;
+  line-height: 1.0em;
+  text-align: center;
+  padding: 2px;
+}
+
+.navbar .nav > li > a:hover > .label {
+  top: 10px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+div#wrapper .navbar-inverse {
+    background-color: #005990;
+}
+.searchlist input {
+    width: 100%;
+}
+.mainsearch .col-md-4 {
+    width: 25%;
+}
+.inputform li input {
+    width: 400px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #fff;
+   background-color: #00000036;
+    border: 0;
+    height: 40px;
+    padding: 0 17px;
+    border-radius: 5px;
+}
+.inputform{
+    position: relative;
+}
+.inputform i.fa.fa-search {
+    position: absolute;
+    right: 17px;
+    font-size: 20px;
+    color: #fff;
+    top: 9px;
+}
+.inputform li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+ul.inputform {
+    float: left;
+    margin: 13px 0 0;
+}
+ul.inputform i.fa.fa-align-justify {
+    color: #fff;
+    font-size: 20px;
+}
+body.dashbackground {
+    background-color: #dadeeb;
+}
+.bellicon {
+    position: relative;
+}
+span.seven {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    background-color: red;
+    padding: 0 3px;
+    color: #fff;
+}
+/*SIDENAV css end*/
+/*righta bar sec start*/
+.billingsec h3 {
+    color: #2e2e2e;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.billinglist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.billinglist input {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 5px;
+    margin: 6px 0;
+}
+.billinglist select {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 8px;
+     border-radius: 5px;
+     margin: 6px 0;
+}
+.billinglist button {
+    background-color: #18689a;
+    color: #fff;
+    border: 0;
+    margin: 36px 0 0;
+    height: 40px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+/*righta bar sec end*/
+/*my order page css start*/
+.pdf {
+    float: left;
+    margin: 0 6px;
+}
+.orderbox h5 {
+    color: #4e4e4e;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+.orderbox p {
+    color: #adadad;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.orderbox a {
+    color: #ff2318;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #ffe7e6;
+    padding: 2px 7px;
+    border: 2px solid #035a90;
+    color: #035a90;
+    font-size: 15px;
+    border: 2px solid #035a90;
+    color: #035a90;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 4% auto;
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.orderbox {
+    /*box-shadow: 1px 1px 1px 1px #ccc;*/
+    padding: 16px 6px;
+    position:relative;
+}
+.paddingtop {
+    padding: 13px 0;
+}
+/*my order page css end*/
+
+/*login page css start*/
+body.loginbackground {
+    /*background-image: url(../images/main-banner_1.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+section.loginsec {
+    padding: 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginsec img {
+    padding: 0 50px 20px 50px;
+}
+
+.loginbody h4 {
+    color: #035a90;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.loginbody p {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.loginlist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 6px 0;
+}
+.loginlist input {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+
+.choose_file_container {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 3px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.choose_file_container .file_choose {
+    position: absolute;
+    top: 0;
+    width: auto;
+    padding: 0;
+    height: 33px;
+    opacity: 0;
+}
+.choose_file_container button {
+    background-color: #035a90;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.new_height{
+    height: 215px;
+}
+
+.loginforgetlist label {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.loginforgetlist input[type="checkbox"] {
+    margin: -2px 6px 0;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.loginforgetlist {
+    margin: 10px 0 10px;
+}
+.loginforgetlist a {
+    color: #035a90;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline !important;
+}
+.stepslogin {
+    background-color: #035a90 !important;
+    border: 0;
+    color: #fff !important;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 4% 0;
+    display: table;
+    width: 40%;
+    padding: 10px 0;
+    border-radius: 0px;
+}
+.loginbtn a {
+    border: 2px solid #035a90;
+    color: #035a90;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 4% auto;
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+/*login page css end*/
+
+/*step 1 css start*/
+.stepwizard-step p {
+    margin-top: 10px;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.usericon a .fa {
+    color: #c8dce6;
+    font-size: 80px;
+    margin: 0 auto;
+    display: table;
+    border: 1px solid #c8dce6;
+    width: 40px;
+    height: 40px;
+    padding: 14px 24px;
+    border-radius: 50px;
+}
+.usericon h4 {
+    color: #7a7a7a;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+}
+.usericon input[type="file"] {
+    position: absolute;
+    bottom: 14px;
+    left: 24px;
+    opacity: 0;
+}
+.rigistertionlist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.rigistertionlist input {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+.genderlist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.genderlist ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+.genderlist ul {
+    padding: 0;
+}
+.genderlist input[type="radio"] {
+    margin: 1px 3px 0;
+    float: left;
+    width: 15px;
+    height: 15px;
+}
+.rigistertionlist button {
+    background-color: #c7e1ed;
+    border: 0;
+    width: 100%;
+    height: 42px;
+    margin: 0 auto;
+    display: table;
+    color: #337ab7;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.rigistertionlist1 button {
+    margin: 13px 0 0;
+    float: right;
+    padding: 14px 37px;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #005990;
+    color: #fff;
+    border: 0;
+}
+.rigistertionlist1 a {
+    margin: 33px 0 0;
+    float: right;
+    padding: 14px 37px;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #005990;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+/*step 1 css end*/
+/*step 2 css start*/
+.addbtn button {
+    border: 2px solid #035a90;
+    background-color: transparent;
+    margin: 7px 0;
+}
+.smoke label {
+    font-size: 11px;
+}
+/*step 2 css end*/
+/*step 3 css start*/
+.rigistertionlist select {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+.submitbtn button {
+    margin: 29px 0;
+    width: 100%;
+    border: 0;
+}
+/*step 3 css end*/
+/*my prescription page start*/
+.prescriptionbox div#page-wrapper {
+    height: auto;
+}
+.billingsec table thead th {
+    color: #4e4e4e;
+    font-size: 12px;
+    font-weight: 600;
+}
+.billingsec table tr td {
+    color: #adadad;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.smallpdf {
+    margin: 0 0;
+    display: inline-block;
+}
+.billingsec table tr td a {
+    color: #ff2318;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #ffe7e6;
+    padding: 2px 7px;
+}
+td.date {
+    width: 21%;
+}
+td.downloadsec {
+    text-align: right;
+}
+/*my prescription page end*/
+/*sheduled consultation page css start*/
+.billingsec table tr td span {
+    color: #005990;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.billingsec table tr td p {
+    color: #88cec1;
+    margin-bottom:0px;
+}
+a.viewbtn {
+    margin: 0 7px;
+    background-color: #00599054 !important;
+    color: #005990 !important;
+}
+/*sheduled consultation page css end*/
+/*request page css start*/
+.symtomslist ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 4px 0 0;
+    line-height: 30px;
+    padding: 5px 0;
+}
+.symtomslist ul {
+    padding: 0;
+}
+.symtomslist ul li input[type="text"] {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 249px;
+    height: 30px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 0;
+}
+.symtomslist ul li input[type="checkbox"] {
+    margin: 7px 4px 0 0;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.dropfilebox {
+    background-color: #fafafa;
+    padding: 48px 40px 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dropfilebox .fa {
+    margin: 0 auto;
+    display: table;
+    font-size: 50px;
+}
+.symtomslist ul li label {
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dropfilebox span {
+    color: #7a7a7a;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.dropfilebox {
+    position: relative;
+}
+.dropfilebox input[type="file"] {
+    position: absolute;
+    width: 100%;
+    top: 54px;
+    left: 45%;
+    opacity: 0;
+}
+.bookingtypelist ul li {
+    list-style: none;
+    display: inline-block;
+}
+.bookingtypelist ul {
+    padding: 0;
+}
+.bookingtypelist input[type="radio"] {
+    margin: 1px 4px;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+.Demand {
+    padding: 6px 0 0;
+}
+.bookingtypelist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 6px 0;
+}
+.docterlist input {
+    border-right: 0;
+    border-radius: 0;
+}
+.docterlist button {
+    margin: 36px 12px;
+}
+a.bookbtn {
+    background-color: #e9f9f4 !important;
+    color: #005990 !important;
+    margin: 0 6px;
+}
+a.prifilepic {
+    background-color: #c1d7e4 !important;
+    color: #005990 !important;
+}
+/*request page css end*/
+/*parent directory sec start*/
+.profilepic {
+    float: left;
+    margin: 0 8px 0 0;
+}
+.profilebox1 h4 {
+    color: #2e2e2e;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 48px 0;
+}
+.profilebox1 {
+    padding: 20px 0 20px;
+}
+.profilelist2 {
+    margin: 13px 0 0;
+}
+.profilelist1 input {
+    background-color: #f6f6f6;
+}
+/*parent directory sec end*/
+/*request consultation model start*/
+
+.onloadform .modal-header {
+    border: 0;
+    background-color: #005990;
+}
+.onloadform h4 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.bookinglist label {
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+.bookinglist input {
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #0000005c;
+    padding: 0 13px;
+    border-radius: 5px;
+    margin: 6px 0;
+}
+.bookinglist button {
+    margin: 13px 0 0;
+    float: right;
+    padding: 14px 37px;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #005990;
+    color: #fff;
+    border: 0;
+}
+.onloadform .modal-header .close {
+    margin-top: -2px;
+    color: #fff;
+    opacity: 1;
+}
+.modal-open {
+    overflow-y: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/*request consultation model end*/
+
+
+/*home page css start*/
+.navbar-default{
+    margin-bottom: 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+}
+.main-slider .item > img{
+    width: 100%;
+}
+
+
+header {
+    position: absolute;
+    z-index: 999;
+    background-color: #00000054;
+    width: 100%;
+}
+
+
+
+.carosal-cap {
+    position: absolute;
+    top: 190px;
+    width: 50%;
+    left: 170px;
+}
+.carosal-cap h4 {
+    font-size: 50px;
+    color: #000;
+}
+
+
+.top-row ul li a {
+    color: #fff;
+    display: inline-block;
+}
+.top-row li {
+    padding: 0px 17px;
+}
+.top-row .row {
+    display: flex;
+    align-items: center;
+}
+a#p-login {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px 18px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 15px;
+}
+a#ph-login {
+    color: #fff;
+    background-color: #0668a4;
+    border: 1px solid #0668a4;
+    padding: 7px 18px;
+    border-radius: 6px;
+    display: inline-block;
+}
+.bottom-row .row {
+    display: flex;
+    align-items: center;
+}
+.bottom-row img {
+    width: 36%;
+}
+.bottom-list ul li {
+    padding: 0px 11px;
+}
+.bottom-list ul li a {
+    color: #fff;
+}
+
+
+
+
+
+.drip-txt {
+    background-color: #f4f4f4;
+    padding: 18px 10px;
+    margin: 18px 0px;
+    position: relative;
+}
+.drip-txt span {
+    color: #fff;
+    background-color: #0668a4;
+    padding: 9px 20px;
+    position: absolute;
+    left: -47px;
+}
+.drip-sign h4 {
+    font-size: 50px;
+    color: #0668a4;
+}
+.drip-sign h3 {
+    font-size: 30px;
+}
+section.drip-sec .row {
+    display: flex;
+    align-items: center;
+}
+.drip-sign {
+    padding-top: 50px;
+}
+section.drip-sec {
+    padding: 71px 0px;
+}
+.abt-img img {
+    width: 100%;
+}
+
+
+
+
+section.electronic img {
+    width: 100%;
+}
+.electronic-txt h3 {
+    font-size: 16px;
+}
+.electronic-txt p {
+    font-size: 14px;
+}   
+.col-md-6.shadow-elec {
+    box-shadow: 0px 1px 4px 3px #eeeeee;
+}
+
+
+
+
+.see-drip-txt p {
+    color: #fff;
+    font-size: 30px;
+}
+.see-drip-txt h3 {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.see-drip-txt h4 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #fff;
+}
+section.see-drip {
+    background: url(../images/drip-back-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 70px 0px;
+}
+.see-drip-txt a {
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+section.electronic {
+    padding: 70px 0px;
+}
+section.see-drip .row {
+    display: flex;
+    align-items: center;
+}
+section.no-wait .row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+section.no-wait {
+    background: url(../images/there-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 70px 0px;
+}
+.no-wait-txt span {
+    color: #0668a4 !important;
+}
+.no-wait-txt p {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+.changing-txt p {
+    font-size: 18px;
+}
+.changing-txt h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #0668a4;
+}
+.changing-txt h3 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #0668a4;
+    font-weight: 700;
+}
+.changing-txt h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+section.changing .row {
+    display: flex;
+    align-items: center;
+}
+.changing-img img {
+    width: 100%;
+}
+.changing-txt a {
+    color: #fff;
+    background-color: #056bad;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+section.changing {
+    padding: 70px 0px;
+}
+
+
+
+
+
+.commonly-head {
+    text-align: center;
+    padding: 20px 0px;
+}
+.commonly-head h4 {
+    font-size: 30px;
+}
+.commonly-head p {
+    font-size: 18px;
+}
+.commonly-list ul li a {
+    color: #000;
+}
+.commonly-list ul li {
+    list-style: none;
+    position: relative;
+    line-height: 34px;
+}
+.commonly-list ul {
+    padding: 0;
+}
+.commonly-list ul li::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #3576ba;
+    top: 14px;
+    left: -15px;
+    transform: rotate(
+45deg
+);
+}
+
+
+
+
+
+
+footer {
+    background: #0076c0;
+    color: #fff;
+    padding-top: 20px;
+}
+footer h4 {
+    font-size: 30px;
+}
+footer img {
+    width: auto;
+}
+.copyright .row {
+    display: flex;
+    align-items: center;
+}
+.copyright {
+    background-color: #005990;
+    padding: 5px 0px;
+    margin-top: 40px;
+}
+.copyright ul li {
+    padding: 0;
+}
+.copyright a {
+    color: #fff;
+    padding: 0px 6px;
+    display: inline-block;
+}
+/*home page css end*/
+ /*Login Page CSS Start*/
+form.loginn input {
+    width: 100%;
+    padding: 9px 6px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #f0f0f0;
+}
+.login-blk button {
+    color: #fff;
+    display: inline-block;
+    background-color: #0668a4;
+    border: 0;
+    padding: 11px 50px;
+    margin-top: 20px;
+}
+form.registerr input {
+    width: 100%;
+    padding: 11px 4px;
+    border: 1px solid #f0f0f0;
+    outline: none;
+    margin-bottom: 17px;
+}
+form.registerr button {
+    color: #fff;
+    background-color: #0668a4;
+    border: 0;
+    padding: 12px 40px;
+    display: inline-block;
+    margin: 11px 0px;
+}
+.chkkk input {
+    width: auto !important;
+    margin: 1px 10px;
+}
+section.login-sec {
+    padding: 70px 0px;
+}
+
+
+
+.tab {
+    float: left;
+    border: 1px solid #005990;
+    background-color: #005990;
+    width: 100%;
+    height: 300px;
+}
+.tab {
+    position: absolute;
+    left: 0;
+    height: 694px !important;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #005990;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #004e7e;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+
+
+/*table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}*/
+table, th, td {
+    border-bottom: 1px solid #e6e6e6;
+    color: #757575;
+    padding-bottom: 7px !important;
+    text-align: center;
+    padding: 1px 0px;
+    font-size: 14px;
+}
+.logo-row input {
+    width: 47%;
+    position: relative;
+    padding: 7px 6px;
+    background-color: #004e7e;
+    color: #fff !important;
+    border: 0;
+    outline: none;
+}
+.logo-row a {
+    position: absolute;
+    top: 7px;
+    left: 310px;
+    color: #fff;
+    font-size: 20px;
+}
+i#bar-logo {
+    font-size: 22px;
+    color: #3594ce;
+}
+.row.logo-row {
+    background-color: #005990;
+    display: flex;
+    align-items: center;
+}
+section.past-sec option {
+    color: #fff;
+}
+
+/*Login Page CSS End*/
+/*complain card page model css start*/
+.Complainsec h4 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    text-align: left;
+}
+.Complainsec .modal-header {
+    border: 0;
+    background-color: #005990;
+}
+.Complainlist ul {
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+.Complainlist ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.Complainsec .modal-header .close {
+    opacity: 3;
+    color: #fff;
+}
+/*complain card page model css end*/
+
+/*physicain dashboard page start***********************************************/
+
+
+/*physcain page css start*/
+
+a.startbtn {
+    color: #5ed2b1 !important;
+    background-color: #5ed2b130 !important;
+}
+
+/*physcain page css end*/
+ /*account setting page css start*/
+.billingsec ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 6px;
+}
+.billingsec ul {
+    padding: 0;
+}
+.billingsec ul li.active a {
+    color: #005990;
+    position: relative;
+    font-weight: 700;
+}
+.billingsec ul li.active a:before {
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    border-bottom: 2px solid #005990;
+    width: 0;
+}
+.billingsec ul li a {
+    color: #2e2e2e;
+    font-size: 16px;
+    font-weight: 600;
+}
+/*account setting page css end*/
+
+/*profile page css start*/
+.Accountlisting1 ul {
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+.Accountlisting1 ul li {
+    color: #adadad;
+    font-size: 13px;
+    list-style: none;
+    line-height: 30px;
+    font-weight: 400;
+}
+.Accountlisting1 ul li strong {
+    color: #4e4e4e;
+}
+.historyhead {
+    background-color: #004e7e;
+    padding: 0 24px;
+}
+.historybox {
+    margin: 0 2px;
+}
+.historyhead h3 {
+    color: #feeceb;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+}
+.historybox ul {
+    padding: 0;
+}
+.historybox ul li {
+    list-style: none;
+    line-height: 25px;
+    background-color: #edf3f6;
+    padding: 6px 13px;
+    margin: 0 0 7px;
+}
+.historybox ul li a {
+    color: #adadad;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.previoussec h4 {
+    color: #000000;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.previoussec {
+    padding: 20px 0 20px;
+}
+.previousconsultationnotebox {
+    background-color: #edf3f6;
+    padding: 11px 19px;
+    margin: 14px 0px;
+}
+.previousconsultationnotebox h5 {
+    color: #394148;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.previousconsultationnotebox span {
+    color: #a2b4c0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.previousconsultationnotebox p {
+    color: #adadad;
+    font-size: 14px;
+    line-height: 20px;
+}
+.imageslisting h5 {
+    color: #4e4e4e;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.imageslisting ul li {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0 7px;
+}
+.imageslisting ul {
+    margin: 11px 0;
+}
+.imageslisting ul li.active a {
+    color: #528db3;
+    font-weight: 600;
+}
+.imageslisting ul li a {
+    color: #a4a4a4;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.imageslisting1 a {
+    margin: 13px 0 0;
+    float: right;
+    padding: 14px 37px;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #005990;
+    color: #fff;
+}
+/*profile page css end*/
+/*profile medical history page css start*/
+.medicallist ul li {
+    list-style: none;
+    display: inline-block;
+}
+.medicallist ul li:not(:last-child){
+    margin-right: 8px;
+}
+.medicallist ul li.active a {
+    color: #005990;
+    font-weight: 700;
+}
+.medicallist ul {
+    padding: 0;
+}
+.medicallist ul li a {
+    color: #303030;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.startsettingbtn {
+    padding: 11px 16px;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: #005990;
+    color: #fff;
+    margin: -7px 0;
+}
+.startsettingbtn:hover,.startsettingbtn:focus{
+    color: #fff;
+}
+.medicalhistorybox1header {
+    background-color: #004e7e;
+    padding: 0 24px 6px;
+}
+.medicalhistorybox1header h3 {
+    color: #feeceb;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+}
+.medicalhistorybox1header a {
+    margin: 20px 0 0;
+    color: #fff;
+}
+.medicalhistorybox1 {
+    margin: 22px 0;
+}
+.medicalhistorybox1body ul li {
+    background-color: #edf3f6;
+    padding: 6px 13px;
+    margin: 0 0 7px;
+}
+/*profile medical history page css end*/
+/*profile consultation page css start*/
+.prescriptionbox1 h4 {
+    color: #4e4e4e;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.medicalhistorybox1body h5 {
+    color: #555555;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+a.savebtn {
+    color: #004e7e !important;
+    border: 1px solid #004e7e;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    float: right;
+}
+.generallist {
+    background-color: #edf3f6;
+    padding: 25px 13px 49px;
+    margin: 0 0 7px 16px;
+}
+.generalpara {
+    background-color: #edf3f6;
+    padding: 25px 13px 40px;
+    margin: 0 12px 7px;
+}
+/*profile consultation page css end*/
+
+.custom-check .blk{
+      display: block;
+}
+
+.custom-check input {
+  padding: 0;
+  height: initial !important;
+  width: initial !important;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+.custom-check label {
+    position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #fff !important;
+    font-size: 15px !important;
+}
+
+.custom-check label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.custom-check input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 9px;
+    width: 8px;
+    height: 20px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+li.custom-check {
+    width: 23%;
+    padding: 6px 15px !important;
+    
+    margin-bottom: 10px !important;
+}
+
+.mb-5{
+    margin-bottom:20px;
+}
+
+li.custom-check:nth-child(odd){
+    background: #005990;
+}
+li.custom-check:nth-child(even){
+    background: #4aa4dc;
+}
+
+
+
+.test_result{
+    margin-top:35px;
+}
+.test_result h4{
+    color: #4e4e4e;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.test_result button{
+    padding:6px 16px;
+    color:#fff;
+    font-size:14px;
+    background:#005990;
+    border:none;
+    border-radius:0px;
+}
+.test_result .choose_file span{
+    background:#005990;
+    color:#fff;
+    padding:6px 16px;
+    font-size:14px;
+    display:inline-block;
+}
+.test_result .choose_file input{
+    position:absolute;
+}
+
+.test_result .choose_file{
+    position:relative;
+}
+.test_result .choose_file input {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -6px;
+    opacity: 0;
+}
+
+
+
+
+.add_pres button{
+    padding:6px 16px;
+    color:#fff;
+    font-size:14px;
+    background:#005990;
+    border:none;
+    border-radius:0px;
+}
+.add_pres .choose_file2 span{
+    background:#005990;
+    color:#fff;
+    padding:6px 16px;
+    font-size:14px;
+    display:none;
+}
+/*.add_pres .choose_file2 input{
+    position:absolute;
+}*/
+.add_pres .choose_file2 [type="file"]::-webkit-file-upload-button {
+  background: #005990;
+  border: 2px solid #005990;
+  border-radius: 0px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  outline: none;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+.add_pres .choose_file2{
+    position:relative;
+}
+/*.add_pres .choose_file2 input {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -6px;
+    opacity: 0;
+}*/
+.mt-3{
+    margin-top:30px;
+}
+.pdf{
+    border: none;
+}
+
+.download_btn{
+    padding:10px 30px;
+    color:#fff;
+    font-size:16px;
+    background-color:#005990;
+}
+
+.n_padd{
+    padding-left:0px;
+}
+
+
+
+
+
+.remove_presp {
+    position: absolute;
+    top: -4px;
+    display: inline-block !important;
+    width: auto !important;
+    background: transparent !important;
+    right: -15px;
+    font-size: 24px !important;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .inputform li input {
+        width:100%;
+    }
+    div#wrapper .navbar-inverse{
+        width:100%;
+    }
+    /*.billingsec {*/
+    /*overflow-x: scroll;*/
+    /*}*/
+.billinglist input{
+    width:100%;
+}
+.billinglist button{
+    width:100%;
+}
+.billinglist select{
+    width:100%;
+}
+body{
+    overflow-x: visible;
+    width: 94%;
+}
+.custom-check li{
+    display: flex !important;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px !important;
+    width:100%;
+    height: 50px;
+}
+ul.inputform {
+    float: left;
+    margin: 30px 0 0;
+}
+.nav>li:last-child{
+    margin-top:0px;
+}
+.nav>li{
+        margin-top: 5px;
+}
+.infobox{
+    padding-top:105px;
+}
+.medicallist{
+    width:100%;
+    margin-top:100px;
+}
+    ul.inputform i.fa.fa-align-justify{
+    display:none;
+}
+    body.loginbackground{
+        width:90%;
+    }
+    div.table-responsive>div.dataTables_wrapper>div.row {
+    margin: 0;
+    display: flex;
+}
+}
+
+
+
+
+
+
+/*physicain dashboard page end***********************************************/
+ @media only screen and (min-device-width:120px) and (max-device-width:767px) and (orientation:portrait) {
+}
+
+ @media only screen and (min-device-width:520px) and (max-device-width:767px) and (orientation:portrait) {
+}
+@media only screen and (min-device-width:120px) and (max-device-width:750px) and (orientation:landscape) {
+}
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:portrait) {
+}
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:landscape) {
+}
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:portrait) {
+}
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:landscape) {
+}
+ @media only screen and (min-width: 1600px) and (max-width: 1920px) {
+}
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .downloadsec{
+            text-align:center;
+    }
+    button.viewbtn{
+        font-size:12px;
+        display: block;
+    width: 100%;
+    margin:0 !important;
+    text-align: center;
+    }
+    .billingsec table tr td a{
+        font-size:12px;
+            display: block;
+            text-align:center;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+}
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+}

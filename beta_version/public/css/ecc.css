@@ -1,0 +1,388 @@
+
+.head_blue {
+    background-color: #00397F;
+    color: #fff;
+    font-weight: 600;
+    margin: 0px 0 5px 0;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing:0px;
+    clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+}
+
+.head_orange {
+    background-color: #F28046;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing:1px;
+    clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+}
+
+.centerCol {
+    float: none;
+    margin: 0 auto
+}
+.red_head{
+    background:red !important;
+}
+.ecc_sec {
+    padding: 0px 0px;
+}
+.green_head{
+    background:green;
+}
+.my_h3{
+    font-size:20px !important;
+}
+.client_main_info h4 {
+    font-size: 14px;
+    color: #00397F;
+    font-weight: 500;
+    margin: 5px 0 0;
+    letter-spacing: 1px;
+}
+
+.mt-5 {
+    margin-top: 25px;
+}
+
+.normal_txt {
+    font-weight: 600;
+    margin: 0;
+    padding: 0px 0 10px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    text-transform: capitalize !important;
+}
+
+.txt_red {
+    color: red;
+}
+
+.txt_green {
+    color: green;
+}
+
+.pres_complain {
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    float: right;
+}
+
+
+.pres_complain [type="checkbox"]:checked,
+.pres_complain [type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.pres_complain [type="checkbox"]:checked + label,
+.pres_complain [type="checkbox"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #00397F;
+    font-size: 17px;
+}
+.pres_complain [type="checkbox"]:checked + label:before,
+.pres_complain [type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.pres_complain [type="checkbox"]:checked + label:after,
+.pres_complain [type="checkbox"]:not(:checked) + label:after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background: #f7b058;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.pres_complain [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.pres_complain [type="checkbox"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.pres_complain .uplod_imag input {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.pres_complain .uplod_imag {
+    position: relative;
+}
+
+.pres_complain h3 {
+    font-weight: 600;
+    color: #00397F;
+    margin: 0 0 10px 0;
+    font-size:16px !important;
+}
+.pres_complain p{
+    margin-bottom:10px;
+}
+.pres_complain h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*#ecc_modal .modal-dialog{*/
+/*    width:740px;*/
+/*}*/
+
+.client_pic img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin: 0 auto 0 0;
+}
+
+.est_modal.modal-body {
+    padding: 15px;
+}
+
+a.head_blue {
+    float: left;
+}
+
+
+
+
+#ecc_modal .modal-content {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.ecc_card_modal #modal_border {
+    height: auto;
+}
+
+/*.est_modal.modal-body {*/
+/*    height: 500px;*/
+/*    overflow-y: scroll;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+li {
+    list-style: none;
+}
+.hide_yes{
+
+  display: none;
+}
+.red {
+    color:red;
+}
+
+
+.pres_complain .container {
+    width: auto;
+}
+
+
+.uplod_imag .container {
+    width: auto !important;
+}
+
+.uplod_imag .carousel-inner img {
+    height: 180px;
+    object-fit: cover;
+}
+
+a.delete_css {
+    position: absolute;
+    background: red;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.gallery_css {
+    width: 24%;
+    float: left;
+    margin: 0px 4px;
+}
+.ecc_card_wrap .logo img {
+    padding: 0 40px 10px 40px;
+    margin: auto;
+}
+
+.ecc_card_wrap .logo {
+    padding: 0;
+}
+
+.head_alernate {
+    background-color: #f48147;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.modal-dialog {
+    border: 8px solid #0076c0 !important;
+    border-radius: 2px;
+    border-color: #0076c0;
+    width: 900px !important;
+    max-width: 900px !important;
+    }
+
+
+.client_main_info input{
+
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    border: 0
+  }
+
+.normal_txt {
+    border: 0;
+    color: #00397F;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 5px;
+}
+/*.normal_txt:before{*/
+/*    content:'';*/
+/*    position:absolute;*/
+/*    background:#fff;*/
+/*    border-radius:20px;*/
+/*    height:15px;*/
+/*    width:15px;*/
+/*    left:-10px;*/
+/*}*/
+  button.viewbtn {
+    border: 0px;
+    margin: 0 7px;
+    background-color: #00599054 !important;
+    color: #005990 !important;
+}
+#step-13 .modal-content{
+    background-image: url(http://custom-webdevelopment.com/drip/public/images/water-mark.png);
+    background-size:auto;
+    background-position:center;
+    background-color:#fff;
+    background-repeat:no-repeat;
+}
+.upld_img.text-center {
+    width:60%;
+    margin:30px auto 0;
+}
+.upld_img {
+    border: 1px solid #9b9b9b;
+    border-radius: 8px;
+    padding: 30px 0px;
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+ 
+   
+}
+.qr_code ul li:last-child img {
+    width: 68%;
+    margin: 0 auto;
+}
+.upld_img.text-center {
+    margin: auto;
+    width: 32%;
+    border: 2px solid #9b9b9b;
+    padding: 17px;
+}
+
+
+img{
+  max-width:180px;
+  /*height: 140px;*/
+}
+input[type=file]{
+padding:10px;
+}
+
+button.btn.btn-default.prevBtn.btn-lg.pull-left {
+    color: #fff;
+    background-color: #056bad;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px !important;
+    font-family: 'Calibri';
+    line-height: 0px;
+    margin-left: 15px;
+}
+
+
+@media  only screen and (min-width: 300px) and (max-width: 767px) {
+    .client_pic img {
+        margin: 0 auto 0px auto;
+    }
+    
+    .client_main_info h4 {
+        font-size: 11px;
+        color: #00397F;
+        font-weight: 500;
+        margin: 5px 0 0;
+        letter-spacing: 0px;
+    }
+}

@@ -1,0 +1,25 @@
+{
+   "menus":[
+      {
+         "section":"Modules",
+         "items":[
+            {
+               "title":"Doctor",
+               "icon":"fas fa-align-justify",
+               "url":"\/admin\/doctor"
+            },
+            {
+               "title":"Ecc",
+               "icon":"fas fa-align-justify",
+               "url":"\/admin\/ecc"
+            },
+            {
+               "title":"Patient",
+               "icon":"fas fa-align-justify",
+               "url":"\/admin\/patient"
+            }
+         
+         ]
+      }
+   ]
+}
